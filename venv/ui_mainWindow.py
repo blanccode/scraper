@@ -11,6 +11,8 @@
 from PySide6.QtCore import *
 from PySide6.QtGui import *
 from PySide6.QtWidgets import *
+import scraper
+
 
 
 class Ui_MainWindow(object):
@@ -31,11 +33,13 @@ class Ui_MainWindow(object):
         self.widget.setObjectName(u"widget")
         self.widget.setGeometry(QRect(30, 40, 581, 281))
         self.widget.setAutoFillBackground(False)
-        self.widget.setStyleSheet(u"background-color: rgb(32, 33, 43);\n"
-"border-style:outset;\n"
-"border-width: 2px;\n"
-"border-color: rgb(181, 137, 238);\n"
-"border-radius: 3px;")
+        self.widget.setStyleSheet(
+            u"background-color: rgb(32, 33, 43);\n"
+            "border-style:outset;\n"
+            "border-width: 2px;\n"
+            "border-color: rgb(181, 137, 238);\n"
+            "border-radius: 3px;"
+        )
         self.label = QLabel(self.widget)
         self.label.setObjectName(u"label")
         self.label.setGeometry(QRect(20, 20, 451, 20))
@@ -44,16 +48,19 @@ class Ui_MainWindow(object):
         self.pushButton.setObjectName(u"pushButton")
         self.pushButton.setGeometry(QRect(250, 350, 111, 31))
         self.pushButton.setAutoFillBackground(False)
-        self.pushButton.setStyleSheet(u"border-color: rgb(155, 120, 203);\n"
-"color: rgb(243, 243, 237);\n"
-"border-style:outset;\n"
-"border-width: 1px;\n"
-"border-radius: 5px;\n"
-"background-color: rgb(32, 33, 43);\n"
-"")
+        self.pushButton.setStyleSheet(
+            u"border-color: rgb(155, 120, 203);\n"
+            "color: rgb(243, 243, 237);\n"
+            "border-style:outset;\n"
+            "border-width: 1px;\n"
+            "border-radius: 5px;\n"
+            "background-color: rgb(32, 33, 43);\n"
+            ""
+        )
         self.pushButton.setCheckable(False)
         self.pushButton.setAutoDefault(False)
         self.pushButton.setFlat(False)
+        self.pushButton.clicked.connect(self.clicked)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
         self.menubar.setObjectName(u"menubar")
@@ -71,13 +78,26 @@ class Ui_MainWindow(object):
 
         self.pushButton.setDefault(False)
 
-
         QMetaObject.connectSlotsByName(MainWindow)
+
     # setupUi
-
+    def clicked(self):
+        scraper.makeRequest()
+        
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
-        self.label.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" color:#f8f8f2;\">all systems are up and running..</span></p></body></html>", None))
-        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"Start Scraping", None))
-    # retranslateUi
+        MainWindow.setWindowTitle(
+            QCoreApplication.translate("MainWindow", u"MainWindow", None)
+        )
+        self.label.setText(
+            QCoreApplication.translate(
+                "MainWindow",
+                u'<html><head/><body><p><span style=" color:#f8f8f2;">all systems are up and running..</span></p></body></html>',
+                None,
+            )
+        )
+        self.pushButton.setText(
+            QCoreApplication.translate("MainWindow", u"Start Scraping", None)
+        )
+        # scraper.scrapeMediamarkt()
 
+    # retranslateUi
