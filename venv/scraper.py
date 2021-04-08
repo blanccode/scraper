@@ -10,29 +10,38 @@ import requests
 import time
 from selenium.webdriver import ChromeOptions, Chrome
 import ctypes
+import subprocess
+import threading
+import ctypes
+
+class Scraper:
+
+    def __init__(self, url):
+        self.url = url
+        self.driver = webdriver.Chrome(executable_path="/Users/hamza/downloads/chromedriver")
 
 
-def makeRequest():
-    url = "https://www.mediamarkt.de/de/product/_koenic-kcm-1019-2576588.html"
-    # opts = ChromeOptions()
-    # opts.add_experimental_option("detach", True)
-    driver = webdriver.Chrome(executable_path="/Users/hamza/downloads/chromedriver")
-    browser = driver
+class Mediamarkt(Scraper):
 
-    def fillForm():
-        # browser.get('https://www.mediamarkt.de/checkout/address')
+
+    def fillForm(self):
+        # driver.get('https://www.mediamarkt.de/checkout/address')
         pass
-        zurKasseBtn = driver.find_element_by_xpath(
-            '//*[@id="root"]/div[2]/div[4]/div[1]/div/div/div/div/div[8]/div/div/div/div/div[4]/div/button'
+        driver = self.driver
+
+        zurKasseBtn = WebDriverWait(driver, 3).until(
+            EC.presence_of_element_located((By.XPATH, '//*[@id="root"]/div[2]/div[4]/div[1]/div/div/div/div/div[8]/div/div/div/div/div[4]/div/button'))
         )
 
-        ActionChains(browser).move_to_element(zurKasseBtn).click(zurKasseBtn).perform()
+        ActionChains(driver).move_to_element(zurKasseBtn).click(zurKasseBtn).perform()
         print("btn clicked")
 
         time.sleep(1)
-        AnmeldungBtn = driver.find_element_by_id("mms-login-form__login-button")
+        AnmeldungBtn = WebDriverWait(driver, 3).until(
+            EC.presence_of_element_located((By.ID, 'mms-login-form__login-button'))
+        )
 
-        ActionChains(browser).move_to_element(AnmeldungBtn).click(AnmeldungBtn).perform()
+        ActionChains(driver).move_to_element(AnmeldungBtn).click(AnmeldungBtn).perform()
         print("slept for seconds")
 
         username = driver.find_element_by_id("mms-login-form__email")
@@ -49,17 +58,17 @@ def makeRequest():
             )
             return kreditkarte
 
-        visaBtn = WebDriverWait(browser, 3).until(
+        visaBtn = WebDriverWait(driver, 3).until(
             EC.presence_of_element_located((By.XPATH, "//div[text() = 'Kreditkarte']"))
         )
         print("visa found")
-        ActionChains(browser).move_to_element(visaBtn).click(visaBtn).perform()
+        ActionChains(driver).move_to_element(visaBtn).click(visaBtn).perform()
         weiterBtn = driver.find_element_by_xpath(
             '//*[@id="root"]/div[2]/div[3]/div[1]/div/div[2]/div/div[11]/div/button'
         )
 
-        ActionChains(browser).move_to_element(visaBtn).click(visaBtn).perform()
-        ActionChains(browser).click(weiterBtn).perform()
+        ActionChains(driver).move_to_element(visaBtn).click(visaBtn).perform()
+        ActionChains(driver).click(weiterBtn).perform()
 
         driver.find_element_by_xpath(
             '//*[@id="root"]/div[2]/div[3]/div[1]/div/div[2]/div/div[8]/div/div/div/div/div[4]/div/button'
@@ -67,37 +76,40 @@ def makeRequest():
         print("script ran well")
 
 
-    def scrapeMediamarkt():
-        
+    def scrapeMediamarkt(self):
         pass
-        browser.get(url)
+        url = self.url
+        driver = self.driver
+        driver.get(url) 
+
+
         try:
-            time.sleep(1)
+          
 
             cookieForm = driver.find_element_by_xpath(
                 '//*[@id="privacy-layer__wrapper"]/form'
+                
             )
-            acceptBtn = browser.find_element_by_css_selector(
+            print('something')
+
+            acceptBtn = driver.find_element_by_css_selector(
                 "#privacy-layer-accept-all-button"
             )
 
-            ActionChains(browser).move_to_element(cookieForm).click(acceptBtn).perform()
+            ActionChains(driver).move_to_element(cookieForm).click(acceptBtn).perform()
 
             # p = driver.findElement(By.cssSelector("p")).getText()
-            # data = browser.find_element_by_tag_name('p')
-            moveToBtn = WebDriverWait(browser,9999999999999999999).until(
+            # data = driver.find_element_by_tag_name('p')
+            moveToBtn = WebDriverWait(driver,9999999999999999999).until(
                     EC.presence_of_element_located(
                         (By.ID, 'pdp-add-to-cart-button')
                     )
                 )
             print('was found')
             
-            # moveToBtn = browser.find_element_by_css_selector("#pdp-add-to-cart-button")
-            # print('DAAAAAATTAAAAA:',data)
+            # moveToBtn = driver.find_element_by_css_selector("#pdp-add-to-cart-button")
             if moveToBtn:
-                import subprocess
-                import threading
-                import ctypes
+                
 
                 applescript = """
                 display dialog "Artikel detected! look at your shopping cart" ¬
@@ -114,10 +126,10 @@ def makeRequest():
                     ctypes.windll.user32.MessageBoxW(0, text, title, 0x1000)
                     
                 def articleFound():
-                    ActionChains(browser).move_to_element(moveToBtn).click(moveToBtn).perform()
+                    ActionChains(driver).move_to_element(moveToBtn).click(moveToBtn).perform()
 
                     # wait for modal and basketBtn to show up
-                    WebDriverWait(browser, 3).until(
+                    WebDriverWait(driver, 3).until(
                         EC.presence_of_element_located(
                             (By.XPATH, '//*[@id="basket"]/div/div[4]/div/button[2]')
                         )
@@ -125,41 +137,38 @@ def makeRequest():
                     print("located")
 
                     # simulate click and add to basket
-                    toWarenkorbBtn = browser.find_element_by_xpath(
+                    toWarenkorbBtn = driver.find_element_by_xpath(
                         '//*[@id="basket"]/div/div[4]/div/button[2]'
                     )
-                    ActionChains(browser).move_to_element(toWarenkorbBtn).click(
+                    ActionChains(driver).move_to_element(toWarenkorbBtn).click(
                         toWarenkorbBtn
                     ).perform()
                     print("item added to basket")
-                    time.sleep(1)
+                    
+                    self.fillForm() 
 
-                    fillForm()    
-                def console():
-                    print('some long scraping')   
-                    time.sleep(30)
+                
                 p1 = threading.Thread(target=macPopup)
                 p2 = threading.Thread(target=articleFound)
 
                 p1.start()
                 p2.start()
                 
-                
 
             else:
                 print("article is not in stock")
 
                 # wait for data to be loaded
-                # WebDriverWait(browser, delay).until(
+                # WebDriverWait(driver, delay).until(
                 #     EC.presence_of_element_located((By.CSS_SELECTOR, selector))
                 # )
         except:
             print("some error accured!")
             # else:
             #     print('esle')
-            #     html = browser.page_source
+            #     html = driver.page_source
             # # finally:
-            # #     browser.quit()
+            # #     driver.quit()
             # #
             # if html:
             #     soup = BeautifulSoup(html, 'lxml')
@@ -170,7 +179,6 @@ def makeRequest():
             #     print(data)
 
 
-    scrapeMediamarkt()
 
-# makeRequest()
-    # scrapeMediamarkt()
+    # makeRequest()
+        # scrapeMediamarkt()

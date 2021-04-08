@@ -11,6 +11,10 @@ from PySide6.QtWidgets import (
 )
 from ui_mainWindow import Ui_MainWindow
 
+# import platform
+
+# os_name = platform.system()
+# print(os_name)
 
 class MainWindow(QMainWindow):
     def __init__(self):

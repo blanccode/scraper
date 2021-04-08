@@ -11,7 +11,7 @@
 from PySide6.QtCore import *
 from PySide6.QtGui import *
 from PySide6.QtWidgets import *
-import scraper
+from scraper import Mediamarkt
 
 
 
@@ -82,7 +82,7 @@ class Ui_MainWindow(object):
 
     # setupUi
     def clicked(self):
-        scraper.makeRequest()
+        Mediamarkt("https://www.mediamarkt.de/de/product/_koenic-kcm-1019-2576588.html").scrapeMediamarkt()
         
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(
