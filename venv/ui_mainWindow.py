@@ -12,7 +12,8 @@ from PySide6.QtCore import *
 from PySide6.QtGui import *
 from PySide6.QtWidgets import *
 from scraper import Mediamarkt
-
+import threading
+from seleniumrequests import Chrome
 
 
 class Ui_MainWindow(object):
@@ -82,8 +83,39 @@ class Ui_MainWindow(object):
 
     # setupUi
     def clicked(self):
-        Mediamarkt("https://www.mediamarkt.de/de/product/_koenic-kcm-1019-2576588.html").scrapeMediamarkt()
-        
+        def secondScraper():
+            Mediamarkt(
+                "https://www.mediamarkt.de/de/product/_asus-geforce-rtx%E2%84%A2-3080-tuf-gaming-oc-10gb-90yv0fb1-m0nm00-2681861.html"
+            ).scrapeMediamarkt()
+
+        def thirdScraper():
+            Mediamarkt(
+                "https://www.saturn.de/de/product/_asus-geforce-rtx%E2%84%A2-3080-tuf-gaming-oc-10gb-90yv0fb1-m0nm00-2681861.html"
+            ).scrapeMediamarkt()
+
+        def forthScraper():
+            Mediamarkt(
+                "https://www.saturn.de/de/product/_asus-geforce-rtx%E2%84%A2-3070-tuf-gaming-oc-8gb-90yv0fq6-m0na00-2691247.html"
+            ).scrapeMediamarkt()
+
+        def fifthScraper():
+            Mediamarkt(
+                "https://webshop.asus.com/de/komponenten/grafikkarten/nvidia-serie/2825/asus-tuf-rtx3080-o10g-gaming"
+            ).scrapeMediamarkt()
+            
+
+        # p2 = threading.Thread(target=secondScraper)
+        # p3 = threading.Thread(target=thirdScraper)
+        # p4 = threading.Thread(target=forthScraper)
+        # p5 = threading.Thread(target=fifthScraper)
+        # p2.start()
+        # p3.start()
+        # p4.start()
+        # p5.start()
+        Mediamarkt(
+            "https://www.mediamarkt.de/de/product/_asus-geforce-rtx%E2%84%A2-3070-tuf-gaming-oc-8gb-90yv0fq6-m0na00-2691247.html"
+        ).scrapeMediamarkt()
+
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(
             QCoreApplication.translate("MainWindow", u"MainWindow", None)
