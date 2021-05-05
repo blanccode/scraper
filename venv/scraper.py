@@ -1,35 +1,14 @@
-import json
-from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver import ActionChains
-import requests
-import time
 from selenium.webdriver import ChromeOptions, Chrome, Firefox
-from selenium.webdriver.chrome.options import Options
-from windowPopup import showPopup
-import random
-n = random.randint(0,1)
+
 import ctypes
 from functions import *
 
-
-from http_request_randomizer.requests.proxy.requestProxy import RequestProxy
-
-req_proxy = RequestProxy() #you may get different number of proxy when  you run this at each time
-proxies = req_proxy.get_proxy_list() #this will create proxy list
-
-PROXY = proxies[0].get_address()
-
-opts = Options()
-
-ips = []
-for proxy in proxies:
-    # if proxy.country == 'Germany':
-    ips.append(proxy.get_address())
 
 
 # def refreshCheckItemAvailability(driver,url):
@@ -189,5 +168,21 @@ class Asus(Scraper):
         driver = self.driver
         driver.get(url)
         refreshCheckItemAvailability(driver,url)
+
+        
+class Alternate(Scraper):
+    def scrapeAlternate(self):
+        url = self.url
+        driver = self.driver
+        driver.get(url)
+        refreshCheckItemAvailabilityAlternate(driver,url)
+
+        
+class Amazon(Scraper):
+    def scrapeAmazon(self):
+        url = self.url
+        driver = self.driver
+        driver.get(url)
+        refreshCheckItemAvailabilityAmazon(driver,url)
 
         

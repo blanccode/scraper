@@ -12,7 +12,7 @@ from PySide6.QtCore import *
 from PySide6.QtGui import *
 from PySide6.QtWidgets import *
 # from scraper import Mediamarkt ,Asus
-from scraper import Asus
+from scraper import Asus, Alternate
 import threading
 from seleniumrequests import Chrome
 
@@ -117,9 +117,12 @@ class Ui_MainWindow(object):
         # Mediamarkt(
         #     "https://www.mediamarkt.de/de/product/_asus-geforce-rtx%E2%84%A2-3080-tuf-gaming-oc-10gb-90yv0fb1-m0nm00-2681861.html"
         # ).scrapeMediamarkt()
-        Asus(
-            "https://webshop.asus.com/de/detail/index/sArticle/3161"
-        ).scrapeAsus()
+        # Asus(
+        #     "https://webshop.asus.com/de/detail/index/sArticle/3161"
+        # ).scrapeAsus()
+        Alternate(
+            "https://www.alternate.de/EVGA/GeForce-RTX-3070-XC3-BLACK-GAMING-Grafikkarte/html/product/1687858"
+        ).scrapeAlternate()
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(

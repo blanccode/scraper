@@ -1,6 +1,7 @@
 import threading
 import subprocess
-
+import ctypes
+import platform
 
 def showPopup():
     applescript = """
@@ -40,8 +41,23 @@ def showPopup():
         # print("item added to basket")
 
         # self.fillForm()
+    
+    os = platform.system()
+    
+    if os == 'Darwin':
+        p1 = threading.Thread(target=macPopup)
+        p2 = threading.Thread(target=addFoundItemToBasket)
+        p1.start()
+        p2.start()
+    else:
+        p1 = threading.Thread(target=windowsPopup)
+        p2 = threading.Thread(target=addFoundItemToBasket)
+        p1.start()
+        p2.start()
+    
 
-    p1 = threading.Thread(target=macPopup)
-    p2 = threading.Thread(target=addFoundItemToBasket)
-    p1.start()
-    p2.start()
+
+
+
+
+
