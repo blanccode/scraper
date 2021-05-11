@@ -37,7 +37,7 @@ def refreshCheckItemAvailability(driver, url):
             for x in range(0, 4):
 
                 merkzettelBtn = driver.find_element_by_css_selector(
-                    ".detail-error--headline"
+                    ".alert--content"
                 )
 
                 print("article is not in stock stock.")
@@ -48,6 +48,7 @@ def refreshCheckItemAvailability(driver, url):
             rotateIp(url)
 
         except:
+            print("AN EXCETION ACCURED IN REFRESHCHECKFUNTION")
             addToCartBtn = driver.find_element_by_css_selector(".is--large")
             # addToCartBtn.click()
             print("Articel found and Btn clicked")
@@ -55,6 +56,43 @@ def refreshCheckItemAvailability(driver, url):
             showPopup()
 
             toCartBtn = True
+
+def rotateIp(url):
+    print("rotating ip")
+    user_agent = (
+        "Mozilla/5.0 CK={} (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+    )
+
+    while True:
+        try:
+            print('trying diffrent ips')
+            for ip in ips:
+
+                time.sleep(2)
+                webdriver.DesiredCapabilities.CHROME["proxy"] = {
+                    "httpProxy": ip,
+                    "ftpProxy": ip,
+                    "sslProxy": ip,
+                    "proxyType": "MANUAL",
+                }
+
+                webdriver.DesiredCapabilities.CHROME["acceptSslCerts"] = True
+
+                if n == 0:
+                    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.53 Safari/537.36"
+
+                opts.add_argument("user-agent=" + user_agent)
+
+                driver = webdriver.Chrome(
+                    executable_path="/Users/hamza/downloads/chromedriver", options=opts
+                )
+
+                
+                driver.get(url)
+                time.sleep(1)
+                refreshCheckItemAvailability(driver, url)
+        except:
+            print('EXCEPTION WHILE IP ROTATION')
 
 
 def refreshCheckItemAvailabilityAlternate(driver, url):

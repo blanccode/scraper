@@ -5,11 +5,35 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver import ActionChains
 from selenium.webdriver import ChromeOptions, Chrome, Firefox
-
+from requests import request as r
+from bs4 import BeautifulSoup as bs
 import ctypes
 from functions import *
+# from http_request_randomizer.requests.proxy.requestProxy import RequestProxy
 
+# req_proxy = (
+#     RequestProxy()
+# )  # you may get different number of proxy when  you run this at each time
+# proxies = req_proxy.get_proxy_list()  # this will create proxy list
 
+# PROXY = proxies[0].get_address()
+
+# ips = []
+# for proxy in proxies:
+#     # if proxy.country == 'Germany':
+#     ips.append(proxy.get_address())
+
+# url = "http:/httpbin.org/ip"
+
+# for ip in range(len(ips)):
+#     print("Request Number : " + str(ip+1))
+#     proxy = ips[ip]
+
+#     try:
+#         response = requests.get(url, proxies = {"http":proxy, "https": proxy})
+#         print(response.json())
+#     except:
+#         print("not available")
 
 # def refreshCheckItemAvailability(driver,url):
 

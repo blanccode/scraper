@@ -85,12 +85,36 @@ class Ui_MainWindow(object):
     # setupUi
     def clicked(self):
         def secondScraper():
-            Mediamarkt(
-                "https://www.mediamarkt.de/de/product/_delonghi-nespresso-en-267-bae-citiz-milk-2163878.html"
-                # "https://www.mediamarkt.de/de/product/_asus-geforce-rtx%E2%84%A2-3080-tuf-gaming-oc-10gb-90yv0fb1-m0nm00-2681861.html"
-            ).scrapeMediamarkt()
+            Asus(
+            "https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white"
+            ).scrapeAsus()
+        
+            # Mediamarkt(
+            #     "https://www.mediamarkt.de/de/product/_delonghi-nespresso-en-267-bae-citiz-milk-2163878.html"
+            #     # "https://www.mediamarkt.de/de/product/_asus-geforce-rtx%E2%84%A2-3080-tuf-gaming-oc-10gb-90yv0fb1-m0nm00-2681861.html"
+            # ).scrapeMediamarkt()
+        def thirdScraper():
+            Asus(
+            "https://webshop.asus.com/de/detail/index/sArticle/3142"
+            ).scrapeAsus()
+            
+        def forthScraper():
+            Asus(
+            "https://webshop.asus.com/de/komponenten/grafikkarten/nvidia-serie/2829/asus-rog-strix-rtx3080-o10g-gaming"
+            ).scrapeAsus()
+        def fifthScraper():
+            Asus(
+            "https://webshop.asus.com/de/komponenten/grafikkarten/nvidia-serie/2825/asus-tuf-rtx3080-o10g-gaming"
+            ).scrapeAsus()
+        def sixthScraper():
+            Asus(
+            "https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white"
+            ).scrapeAsus()
 
-        # def thirdScraper():
+        # def seventhScraper():
+        #     Alternate(
+        #         "https://www.alternate.de/EVGA/GeForce-RTX-3070-XC3-BLACK-GAMING-Grafikkarte/html/product/1687858"
+        #     ).scrapeAlternate()
         #     Mediamarkt(
         #         "https://www.saturn.de/de/product/_asus-geforce-rtx%E2%84%A2-3080-tuf-gaming-oc-10gb-90yv0fb1-m0nm00-2681861.html"
         #     ).scrapeMediamarkt()
@@ -106,23 +130,23 @@ class Ui_MainWindow(object):
         #     ).scrapeMediamarkt()
             
 
-        # p2 = threading.Thread(target=secondScraper)
-        # p3 = threading.Thread(target=thirdScraper)
-        # p4 = threading.Thread(target=forthScraper)
-        # p5 = threading.Thread(target=fifthScraper)
-        # p2.start()
-        # p3.start()
-        # p4.start()
-        # p5.start()
+        p2 = threading.Thread(target=secondScraper)
+        p3 = threading.Thread(target=thirdScraper)
+        p4 = threading.Thread(target=forthScraper)
+        p5 = threading.Thread(target=fifthScraper)
+        p6 = threading.Thread(target=sixthScraper)
+        # p7 = threading.Thread(target=seventhScraper)
+        p2.start()
+        p3.start()
+        p4.start()
+        p5.start()
+        p6.start()
+        # p7.start()
         # Mediamarkt(
         #     "https://www.mediamarkt.de/de/product/_asus-geforce-rtx%E2%84%A2-3080-tuf-gaming-oc-10gb-90yv0fb1-m0nm00-2681861.html"
         # ).scrapeMediamarkt()
-        # Asus(
-        #     "https://webshop.asus.com/de/detail/index/sArticle/3161"
-        # ).scrapeAsus()
-        Alternate(
-            "https://www.alternate.de/EVGA/GeForce-RTX-3070-XC3-BLACK-GAMING-Grafikkarte/html/product/1687858"
-        ).scrapeAlternate()
+        
+        
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(
