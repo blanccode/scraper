@@ -3612,3 +3612,588 @@ JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundEr
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x5C000D,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
 
+1620839476445	geckodriver	INFO	Listening on 127.0.0.1:60519
+1620839476447	geckodriver	INFO	Listening on 127.0.0.1:60521
+1620839476450	geckodriver	INFO	Listening on 127.0.0.1:60520
+1620839476455	geckodriver	INFO	Listening on 127.0.0.1:60522
+1620839476459	geckodriver	INFO	Listening on 127.0.0.1:60523
+1620839476472	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofilerCmLb6"
+1620839476472	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofileDtAp6R"
+1620839476472	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofileQFlbaa"
+1620839476473	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofilez87lfQ"
+1620839477068	Marionette	INFO	Marionette enabled
+1620839477068	Marionette	INFO	Marionette enabled
+1620839477069	Marionette	INFO	Marionette enabled
+1620839477075	Marionette	INFO	Marionette enabled
+1620839477470	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofilerv9vEd"
+1620839478175	Marionette	INFO	Marionette enabled
+2021-05-12 19:11:18.528 firefox-bin[9631:258434] Warning: Expected min height of view: (<NSButton: 0x140ad9800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.530 firefox-bin[9631:258434] Warning: Expected min height of view: (<NSButton: 0x140ad5800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.531 firefox-bin[9631:258434] Warning: Expected min height of view: (<NSButton: 0x140ad8400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.532 firefox-bin[9631:258434] Warning: Expected min height of view: (<NSButton: 0x140ad4800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.533 firefox-bin[9631:258434] Warning: Expected min height of view: (<NSButton: 0x140ad7400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.534 firefox-bin[9631:258434] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x140ad5c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.535 firefox-bin[9631:258434] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x140f07c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.662 firefox-bin[9632:258435] Warning: Expected min height of view: (<NSButton: 0x13bd29000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.663 firefox-bin[9632:258435] Warning: Expected min height of view: (<NSButton: 0x13bd24800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.664 firefox-bin[9632:258435] Warning: Expected min height of view: (<NSButton: 0x13bd28800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.665 firefox-bin[9632:258435] Warning: Expected min height of view: (<NSButton: 0x13bd24400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.666 firefox-bin[9632:258435] Warning: Expected min height of view: (<NSButton: 0x13bd29c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.667 firefox-bin[9632:258435] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13bd22800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.669 firefox-bin[9632:258435] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13bdd2c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.669 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x132f0f000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.670 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x132f11400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.671 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x132f0c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.673 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x132f0a400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.674 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x132f0a800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.678 firefox-bin[9634:258439] Warning: Expected min height of view: (<NSButton: 0x13c1c4400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.679 firefox-bin[9634:258439] Warning: Expected min height of view: (<NSButton: 0x13c1c5c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.680 firefox-bin[9634:258439] Warning: Expected min height of view: (<NSButton: 0x13c1c5000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.681 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x132f0b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.682 firefox-bin[9634:258439] Warning: Expected min height of view: (<NSButton: 0x13c1c4000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.682 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x132fb4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.683 firefox-bin[9634:258439] Warning: Expected min height of view: (<NSButton: 0x13c1c8c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.684 firefox-bin[9634:258439] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13c1ca400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:18.685 firefox-bin[9634:258439] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13c4d7c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+2021-05-12 19:11:19.736 firefox-bin[9635:258762] Warning: Expected min height of view: (<NSButton: 0x12cbca000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:19.738 firefox-bin[9635:258762] Warning: Expected min height of view: (<NSButton: 0x1373c6800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:19.739 firefox-bin[9635:258762] Warning: Expected min height of view: (<NSButton: 0x1373c7c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:19.740 firefox-bin[9635:258762] Warning: Expected min height of view: (<NSButton: 0x1373c9c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:19.741 firefox-bin[9635:258762] Warning: Expected min height of view: (<NSButton: 0x1373c4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:19.743 firefox-bin[9635:258762] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1373c8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:11:19.744 firefox-bin[9635:258762] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x137651000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1620839480325	Marionette	INFO	Listening on port 60558
+1620839480370	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620839480423	Marionette	INFO	Listening on port 60559
+1620839480450	Marionette	INFO	Listening on port 60556
+1620839480487	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620839480626	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620839480666	Marionette	INFO	Listening on port 60561
+1620839480789	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620839481532	Marionette	INFO	Listening on port 60611
+1620839481581	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/komponenten/grafikkarten/nvidia-serie/2825/asus-tuf-rtx3080-o10g-gaming line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/komponenten/grafikkarten/nvidia-serie/2825/asus-tuf-rtx3080-o10g-gaming line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/detail/index/sArticle/3142 line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript error: https://webshop.asus.com/de/detail/index/sArticle/3142 line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/komponenten/grafikkarten/nvidia-serie/2825/asus-tuf-rtx3080-o10g-gaming line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/detail/index/sArticle/3142 line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/komponenten/grafikkarten/nvidia-serie/2825/asus-tuf-rtx3080-o10g-gaming line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/detail/index/sArticle/3142 line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/komponenten/grafikkarten/nvidia-serie/2829/asus-rog-strix-rtx3080-o10g-gaming line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+1620839514637	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/komponenten/grafikkarten/nvidia-serie/2829/asus-rog-strix-rtx3080-o10g-gaming line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/komponenten/grafikkarten/nvidia-serie/2829/asus-rog-strix-rtx3080-o10g-gaming line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+1620839582330	Marionette	INFO	Stopped listening on port 60556
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620839583870	Marionette	INFO	Stopped listening on port 60558
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620839585453	Marionette	INFO	Stopped listening on port 60561
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620839586897	Marionette	INFO	Stopped listening on port 60611
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620839660546	geckodriver	INFO	Listening on 127.0.0.1:61455
+1620839661553	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofileIwNseI"
+1620839661935	Marionette	INFO	Marionette enabled
+2021-05-12 19:14:22.856 firefox-bin[9754:262538] Warning: Expected min height of view: (<NSButton: 0x1302d0400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:14:22.857 firefox-bin[9754:262538] Warning: Expected min height of view: (<NSButton: 0x13aacb800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:14:22.858 firefox-bin[9754:262538] Warning: Expected min height of view: (<NSButton: 0x13aac8000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:14:22.858 firefox-bin[9754:262538] Warning: Expected min height of view: (<NSButton: 0x13aac6400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:14:22.859 firefox-bin[9754:262538] Warning: Expected min height of view: (<NSButton: 0x13aacbc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:14:22.859 firefox-bin[9754:262538] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13aac9c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:14:22.860 firefox-bin[9754:262538] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13af11800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620839663973	Marionette	INFO	Listening on port 61466
+1620839664011	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+2021-05-12 19:19:17.424 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x102c0d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:19:17.424 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x11936ac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:19:17.425 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x126258800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:19:17.425 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x12625b000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:19:17.426 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x1262bcc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:19:17.426 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x132843800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:19:17.427 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x132bf3000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1620840065252	Marionette	INFO	Stopped listening on port 61466
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+2021-05-12 19:21:07.071 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x102ccb400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:21:07.072 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x13336e800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:21:07.072 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x13336c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:21:07.073 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x13336f000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:21:07.073 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x133377400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:21:07.074 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x133372400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:21:07.074 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x133380000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:21:35.017 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x1320e0c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:21:35.018 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x1376a5c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:21:35.018 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x1ac981c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:21:35.019 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x1ac984400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:21:35.019 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x1ac983c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:21:35.020 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1ac987000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:21:35.020 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1ac987400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://js.datadome.co/tags.js, line 2: SecurityError: The operation is insecure.
+JavaScript error: https://js.datadome.co/tags.js, line 2: SecurityError: The operation is insecure.
+JavaScript error: https://js.datadome.co/tags.js, line 2: SecurityError: The operation is insecure.
+JavaScript error: https://js.datadome.co/tags.js, line 2: SecurityError: The operation is insecure.
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+2021-05-12 19:22:27.759 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x11936d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:22:27.759 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x125d23c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:22:27.760 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x125d26400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:22:27.760 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x125d88c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:22:27.761 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x13337ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:22:27.762 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1333d2c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:22:27.762 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x133913400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:23:01.672 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x1badc5c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:23:01.672 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x1badc8000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:23:01.673 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x1badc4400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:23:01.673 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x1badc7000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:23:01.674 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x1badc7400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:23:01.674 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1badc0400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:23:01.675 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1badcd000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://js.datadome.co/tags.js, line 2: SecurityError: The operation is insecure.
+JavaScript error: https://js.datadome.co/tags.js, line 2: SecurityError: The operation is insecure.
+JavaScript error: https://js.datadome.co/tags.js, line 2: SecurityError: The operation is insecure.
+JavaScript error: https://js.datadome.co/tags.js, line 2: SecurityError: The operation is insecure.
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3025/asus-rog-strix-rtx3070-o8g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+2021-05-12 19:23:45.435 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x133a2e400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:23:45.436 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x133a36400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:23:45.437 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x133a33c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:23:45.437 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x133a34000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:23:45.438 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSButton: 0x133a32800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:23:45.438 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x133a37800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-12 19:23:45.439 firefox-bin[9633:258436] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1349bc800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1620873797720	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1620902717416	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1620946018748	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1620989318055	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1621090436753	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1621092532963	geckodriver	INFO	Listening on 127.0.0.1:49530
+1621092533776	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofilexpxFek"
+1621092534131	Marionette	INFO	Marionette enabled
+2021-05-15 17:28:54.983 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x139b9c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:28:54.983 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x139b99c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:28:54.984 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x139b99400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:28:54.984 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x139b98400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:28:54.985 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x139b98800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:28:54.985 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x139b9ac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:28:54.986 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x139ec2800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621092535929	Marionette	INFO	Listening on port 49543
+1621092536036	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+2021-05-15 17:32:05.926 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x114855000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:32:05.927 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x125fc4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:32:05.927 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x12cb26800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:32:05.927 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x12d2b6400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:32:05.928 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x12d2b6800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:32:05.928 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12dcbb400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:32:05.929 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x146148800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:32:48.858 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x1203a7400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:32:48.859 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x1203a9c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:32:48.859 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x12cb2c000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:32:48.860 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x12eb54800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:32:48.860 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x139ba2000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:32:48.861 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x139b9e400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:32:48.861 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x14613e800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:33:04.429 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x1203a9800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:33:04.430 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x125fcb000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:33:04.430 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x12750d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:33:04.431 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x12cb25400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:33:04.431 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x12cb2c000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:33:04.432 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12dcbec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:33:04.432 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x147dc5400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:33:35.206 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x125fc3c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:33:35.206 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x12dcc7400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:33:35.207 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x139b9dc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:33:35.207 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x139b9f000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:33:35.208 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSButton: 0x139b9e400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:33:35.208 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x139d80c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:33:35.209 firefox-bin[2451:14372] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x14976e000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1621093022163	geckodriver	INFO	Listening on 127.0.0.1:50507
+1621093023175	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofileKS69ZD"
+1621093023542	Marionette	INFO	Marionette enabled
+2021-05-15 17:37:04.441 firefox-bin[2614:20156] Warning: Expected min height of view: (<NSButton: 0x1306cd000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:37:04.441 firefox-bin[2614:20156] Warning: Expected min height of view: (<NSButton: 0x13b5a1c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:37:04.442 firefox-bin[2614:20156] Warning: Expected min height of view: (<NSButton: 0x13b5a2800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:37:04.443 firefox-bin[2614:20156] Warning: Expected min height of view: (<NSButton: 0x13b5a4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:37:04.443 firefox-bin[2614:20156] Warning: Expected min height of view: (<NSButton: 0x13b5a0800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:37:04.444 firefox-bin[2614:20156] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13b5a3400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:37:04.445 firefox-bin[2614:20156] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13b8b9800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621093025385	Marionette	INFO	Listening on port 50522
+1621093025447	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+1621093241458	geckodriver	INFO	Listening on 127.0.0.1:51599
+1621093242467	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofilemOM87u"
+1621093242835	Marionette	INFO	Marionette enabled
+2021-05-15 17:40:43.719 firefox-bin[2672:22509] Warning: Expected min height of view: (<NSButton: 0x1272c0c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:40:43.720 firefox-bin[2672:22509] Warning: Expected min height of view: (<NSButton: 0x131aac800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:40:43.720 firefox-bin[2672:22509] Warning: Expected min height of view: (<NSButton: 0x131aaf800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:40:43.721 firefox-bin[2672:22509] Warning: Expected min height of view: (<NSButton: 0x131aa9400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:40:43.721 firefox-bin[2672:22509] Warning: Expected min height of view: (<NSButton: 0x131aacc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:40:43.722 firefox-bin[2672:22509] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x131aabc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:40:43.723 firefox-bin[2672:22509] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x131bf1800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621093244661	Marionette	INFO	Listening on port 51614
+1621093244745	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+1621093252776	Marionette	INFO	Stopped listening on port 51614
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621093284450	Marionette	INFO	Stopped listening on port 50522
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621093285839	Marionette	INFO	Stopped listening on port 49543
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621093747607	geckodriver	INFO	Listening on 127.0.0.1:53939
+1621093748617	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofileuUCNL7"
+1621093748982	Marionette	INFO	Marionette enabled
+2021-05-15 17:49:09.907 firefox-bin[2876:27636] Warning: Expected min height of view: (<NSButton: 0x132ec3800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:49:09.908 firefox-bin[2876:27636] Warning: Expected min height of view: (<NSButton: 0x13d7c2400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:49:09.909 firefox-bin[2876:27636] Warning: Expected min height of view: (<NSButton: 0x13d7bf800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:49:09.909 firefox-bin[2876:27636] Warning: Expected min height of view: (<NSButton: 0x13d7c0000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:49:09.910 firefox-bin[2876:27636] Warning: Expected min height of view: (<NSButton: 0x13d7c0800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:49:09.910 firefox-bin[2876:27636] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13d7c3400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:49:09.911 firefox-bin[2876:27636] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13d8d3c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621093751012	Marionette	INFO	Listening on port 53954
+1621093751058	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+1621093806733	geckodriver	INFO	Listening on 127.0.0.1:54359
+1621093807743	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofileN4UbBQ"
+1621093808124	Marionette	INFO	Marionette enabled
+2021-05-15 17:50:09.044 firefox-bin[2917:28558] Warning: Expected min height of view: (<NSButton: 0x12b0ccc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:50:09.045 firefox-bin[2917:28558] Warning: Expected min height of view: (<NSButton: 0x1358b9c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:50:09.045 firefox-bin[2917:28558] Warning: Expected min height of view: (<NSButton: 0x1358bdc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:50:09.046 firefox-bin[2917:28558] Warning: Expected min height of view: (<NSButton: 0x1358bac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:50:09.046 firefox-bin[2917:28558] Warning: Expected min height of view: (<NSButton: 0x1358bbc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:50:09.047 firefox-bin[2917:28558] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1358bc000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:50:09.047 firefox-bin[2917:28558] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x135d0fc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621093810021	Marionette	INFO	Listening on port 54374
+1621093810097	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1621094124043	geckodriver	INFO	Listening on 127.0.0.1:55869
+1621094125052	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofilendihwK"
+1621094125420	Marionette	INFO	Marionette enabled
+2021-05-15 17:55:26.304 firefox-bin[3015:31588] Warning: Expected min height of view: (<NSButton: 0x133558800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:55:26.305 firefox-bin[3015:31588] Warning: Expected min height of view: (<NSButton: 0x13d899000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:55:26.305 firefox-bin[3015:31588] Warning: Expected min height of view: (<NSButton: 0x13d898800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:55:26.306 firefox-bin[3015:31588] Warning: Expected min height of view: (<NSButton: 0x13d898000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:55:26.306 firefox-bin[3015:31588] Warning: Expected min height of view: (<NSButton: 0x13d89e400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:55:26.307 firefox-bin[3015:31588] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13d899400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:55:26.307 firefox-bin[3015:31588] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13dd0d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621094127206	Marionette	INFO	Listening on port 55884
+1621094127300	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1621094137000	Marionette	INFO	Stopped listening on port 55884
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621094304528	geckodriver	INFO	Listening on 127.0.0.1:56991
+1621094305536	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofile8Y7M56"
+1621094305997	Marionette	INFO	Marionette enabled
+2021-05-15 17:58:26.990 firefox-bin[3165:34815] Warning: Expected min height of view: (<NSButton: 0x134dc8c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:58:26.991 firefox-bin[3165:34815] Warning: Expected min height of view: (<NSButton: 0x13f5a7c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:58:26.991 firefox-bin[3165:34815] Warning: Expected min height of view: (<NSButton: 0x13f5a8000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:58:26.992 firefox-bin[3165:34815] Warning: Expected min height of view: (<NSButton: 0x13f5a8400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:58:26.993 firefox-bin[3165:34815] Warning: Expected min height of view: (<NSButton: 0x13f5a8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:58:26.993 firefox-bin[3165:34815] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13f5a9800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 17:58:26.994 firefox-bin[3165:34815] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13f6e8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621094307969	Marionette	INFO	Listening on port 57006
+1621094307990	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621094314356	Marionette	INFO	Stopped listening on port 57006
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621096800531	geckodriver	INFO	Listening on 127.0.0.1:59100
+1621096800532	geckodriver	INFO	Listening on 127.0.0.1:59101
+1621096800533	geckodriver	INFO	Listening on 127.0.0.1:59098
+1621096800537	geckodriver	INFO	Listening on 127.0.0.1:59099
+1621096800540	geckodriver	INFO	Listening on 127.0.0.1:59097
+1621096800551	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofileJwq4Eb"
+1621096800554	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofileZXKdsI"
+1621096800554	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofilencPsHs"
+1621096800554	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofile0gmRGE"
+1621096801141	Marionette	INFO	Marionette enabled
+1621096801142	Marionette	INFO	Marionette enabled
+1621096801142	Marionette	INFO	Marionette enabled
+1621096801153	Marionette	INFO	Marionette enabled
+1621096801552	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofilePU2iig"
+1621096802189	Marionette	INFO	Marionette enabled
+2021-05-15 18:40:02.583 firefox-bin[3595:52658] Warning: Expected min height of view: (<NSButton: 0x13b7c8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.585 firefox-bin[3595:52658] Warning: Expected min height of view: (<NSButton: 0x13b7c6c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.586 firefox-bin[3595:52658] Warning: Expected min height of view: (<NSButton: 0x13b7cac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.587 firefox-bin[3595:52658] Warning: Expected min height of view: (<NSButton: 0x13b7c7000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.588 firefox-bin[3595:52658] Warning: Expected min height of view: (<NSButton: 0x13b7ccc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.589 firefox-bin[3595:52658] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13b7c8400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.590 firefox-bin[3595:52658] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13b8e3800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.599 firefox-bin[3598:52662] Warning: Expected min height of view: (<NSButton: 0x134aca800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.600 firefox-bin[3598:52662] Warning: Expected min height of view: (<NSButton: 0x134ba6400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.602 firefox-bin[3598:52662] Warning: Expected min height of view: (<NSButton: 0x134ba9000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.603 firefox-bin[3596:52660] Warning: Expected min height of view: (<NSButton: 0x133e74800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.603 firefox-bin[3598:52662] Warning: Expected min height of view: (<NSButton: 0x134ba6800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.604 firefox-bin[3596:52660] Warning: Expected min height of view: (<NSButton: 0x10dc0c000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.604 firefox-bin[3598:52662] Warning: Expected min height of view: (<NSButton: 0x134ba7000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.605 firefox-bin[3596:52660] Warning: Expected min height of view: (<NSButton: 0x133e7bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.605 firefox-bin[3598:52662] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x134ba5000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.606 firefox-bin[3598:52662] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x134baf400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.606 firefox-bin[3596:52660] Warning: Expected min height of view: (<NSButton: 0x133e75000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.607 firefox-bin[3596:52660] Warning: Expected min height of view: (<NSButton: 0x133e76400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.608 firefox-bin[3596:52660] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x133e79800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.609 firefox-bin[3596:52660] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x133e82c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.622 firefox-bin[3597:52661] Warning: Expected min height of view: (<NSButton: 0x133645000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.630 firefox-bin[3597:52661] Warning: Expected min height of view: (<NSButton: 0x133646000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.631 firefox-bin[3597:52661] Warning: Expected min height of view: (<NSButton: 0x13364ac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.632 firefox-bin[3597:52661] Warning: Expected min height of view: (<NSButton: 0x133649400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.633 firefox-bin[3597:52661] Warning: Expected min height of view: (<NSButton: 0x133647000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.634 firefox-bin[3597:52661] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13364a000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:02.634 firefox-bin[3597:52661] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13376bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+2021-05-15 18:40:03.595 firefox-bin[3599:53051] Warning: Expected min height of view: (<NSButton: 0x13335a800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:03.596 firefox-bin[3599:53051] Warning: Expected min height of view: (<NSButton: 0x13d6cc400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:03.597 firefox-bin[3599:53051] Warning: Expected min height of view: (<NSButton: 0x13d6cb800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:03.598 firefox-bin[3599:53051] Warning: Expected min height of view: (<NSButton: 0x13d6c8c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:03.599 firefox-bin[3599:53051] Warning: Expected min height of view: (<NSButton: 0x13d6c6c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:03.600 firefox-bin[3599:53051] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13d6c9400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-15 18:40:03.601 firefox-bin[3599:53051] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13db0f800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1621096804157	Marionette	INFO	Listening on port 59136
+1621096804174	Marionette	INFO	Listening on port 59139
+1621096804229	Marionette	INFO	Listening on port 59138
+1621096804258	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621096804265	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621096804274	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621096804280	Marionette	INFO	Listening on port 59131
+1621096804369	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621096805381	Marionette	INFO	Listening on port 59188
+1621096805455	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621096820766	Marionette	INFO	Stopped listening on port 59138
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js, line 1: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621096831877	Marionette	INFO	Stopped listening on port 59188
+1621096832654	Marionette	INFO	Stopped listening on port 59136
+JavaScript error: https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js, line 1: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621096836057	Marionette	INFO	Stopped listening on port 59139
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621096882603	Marionette	INFO	Stopped listening on port 59131
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

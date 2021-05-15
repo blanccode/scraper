@@ -88,6 +88,7 @@ class Ui_MainWindow(object):
             Asus(
             "https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white"
             ).scrapeAsus()
+        # secondScraper()
         
             # Mediamarkt(
             #     "https://www.mediamarkt.de/de/product/_delonghi-nespresso-en-267-bae-citiz-milk-2163878.html"

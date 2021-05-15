@@ -33,16 +33,17 @@ def refreshCheckItemAvailability(driver, url):
     toCartBtn = False
     while not toCartBtn:
         try:
-            refreshLimit = 4
-            for x in range(0, 4):
+            # refreshLimit = 4
+            # for x in range(0, 2):
+                
+            merkzettelBtn = driver.find_element_by_css_selector(
+                ".alert--content"
+            )
 
-                merkzettelBtn = driver.find_element_by_css_selector(
-                    ".alert--content"
-                )
-
-                print("article is not in stock stock.")
-                time.sleep(2)
-                driver.refresh()
+            print("ARTICLE IS NOT IN STOCK.")
+                # time.sleep(2)
+                
+                # driver.execute_script("location.reload()")
 
             driver.quit()
             rotateIp(url)
@@ -68,7 +69,7 @@ def rotateIp(url):
             print('trying diffrent ips')
             for ip in ips:
 
-                time.sleep(2)
+                # time.sleep(2)
                 webdriver.DesiredCapabilities.CHROME["proxy"] = {
                     "httpProxy": ip,
                     "ftpProxy": ip,
@@ -89,7 +90,7 @@ def rotateIp(url):
 
                 
                 driver.get(url)
-                time.sleep(1)
+                # time.sleep(1)
                 refreshCheckItemAvailability(driver, url)
         except:
             print('EXCEPTION WHILE IP ROTATION')
