@@ -4197,3 +4197,11 @@ JavaScript error: https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflar
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1621097115460	Marionette	INFO	Stopped listening on port 54374
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621097116569	Marionette	INFO	Stopped listening on port 53954
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
