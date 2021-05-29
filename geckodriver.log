@@ -4205,3 +4205,255 @@ JavaScript error: https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflar
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1622254799825	geckodriver	INFO	Listening on 127.0.0.1:49917
+1622254800692	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofileN9gQfj"
+1622254801224	Marionette	INFO	Marionette enabled
+2021-05-29 04:20:02.272 firefox-bin[1613:18751] Warning: Expected min height of view: (<NSButton: 0x12b8eb800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 04:20:02.273 firefox-bin[1613:18751] Warning: Expected min height of view: (<NSButton: 0x1380e9c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 04:20:02.274 firefox-bin[1613:18751] Warning: Expected min height of view: (<NSButton: 0x1380ed800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 04:20:02.274 firefox-bin[1613:18751] Warning: Expected min height of view: (<NSButton: 0x1380ee000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 04:20:02.275 firefox-bin[1613:18751] Warning: Expected min height of view: (<NSButton: 0x138356400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 04:20:02.275 firefox-bin[1613:18751] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x138358c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 04:20:02.276 firefox-bin[1613:18751] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13835ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622254803340	Marionette	INFO	Listening on port 49933
+1622254803361	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622254808125	Marionette	INFO	Stopped listening on port 49933
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622254996006	geckodriver	INFO	Listening on 127.0.0.1:50268
+1622254997023	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofileFyPd8A"
+1622254997421	Marionette	INFO	Marionette enabled
+2021-05-29 04:23:18.352 firefox-bin[2317:24396] Warning: Expected min height of view: (<NSButton: 0x12f8aec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 04:23:18.353 firefox-bin[2317:24396] Warning: Expected min height of view: (<NSButton: 0x13c1c9c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 04:23:18.353 firefox-bin[2317:24396] Warning: Expected min height of view: (<NSButton: 0x13c1cd400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 04:23:18.354 firefox-bin[2317:24396] Warning: Expected min height of view: (<NSButton: 0x13c1cdc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 04:23:18.355 firefox-bin[2317:24396] Warning: Expected min height of view: (<NSButton: 0x13c1ca000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 04:23:18.355 firefox-bin[2317:24396] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13c1d0400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 04:23:18.356 firefox-bin[2317:24396] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13c2e8c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622254999362	Marionette	INFO	Listening on port 50280
+1622254999472	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622255004293	Marionette	INFO	Stopped listening on port 50280
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622308028933	geckodriver	INFO	Listening on 127.0.0.1:50561
+1622308030113	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofilexuJt3F"
+1622308031198	Marionette	INFO	Marionette enabled
+2021-05-29 19:07:12.129 firefox-bin[2548:33266] Warning: Expected min height of view: (<NSButton: 0x132533400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 19:07:12.130 firefox-bin[2548:33266] Warning: Expected min height of view: (<NSButton: 0x132535800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 19:07:12.131 firefox-bin[2548:33266] Warning: Expected min height of view: (<NSButton: 0x132535c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 19:07:12.131 firefox-bin[2548:33266] Warning: Expected min height of view: (<NSButton: 0x132539800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 19:07:12.132 firefox-bin[2548:33266] Warning: Expected min height of view: (<NSButton: 0x13253b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 19:07:12.133 firefox-bin[2548:33266] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x132537800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 19:07:12.133 firefox-bin[2548:33266] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13284d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622308033211	Marionette	INFO	Listening on port 50574
+1622308033282	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622308045380	Marionette	INFO	Stopped listening on port 50574
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622310094327	geckodriver	INFO	Listening on 127.0.0.1:51057
+1622310095353	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofile08U0Wd"
+1622310095798	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622310097591	Marionette	INFO	Listening on port 51068
+1622310097687	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622310100405	Marionette	INFO	Stopped listening on port 51068
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622310279472	geckodriver	INFO	Listening on 127.0.0.1:51198
+1622310280496	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofilejWyoug"
+1622310280869	Marionette	INFO	Marionette enabled
+2021-05-29 19:44:41.796 firefox-bin[3190:46761] Warning: Expected min height of view: (<NSButton: 0x13e5a4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 19:44:41.797 firefox-bin[3190:46761] Warning: Expected min height of view: (<NSButton: 0x13e5a6400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 19:44:41.798 firefox-bin[3190:46761] Warning: Expected min height of view: (<NSButton: 0x13e5a3000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 19:44:41.798 firefox-bin[3190:46761] Warning: Expected min height of view: (<NSButton: 0x13e5a0800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 19:44:41.799 firefox-bin[3190:46761] Warning: Expected min height of view: (<NSButton: 0x13e5a6800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 19:44:41.799 firefox-bin[3190:46761] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13e5a3400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-29 19:44:41.800 firefox-bin[3190:46761] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13e6df800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622310282936	Marionette	INFO	Listening on port 51209
+1622310283036	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622310285625	Marionette	INFO	Stopped listening on port 51209
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622311820332	geckodriver	INFO	Listening on 127.0.0.1:51531
+1622311821337	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofileAjsiHK"
+1622311821716	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622311823700	Marionette	INFO	Listening on port 51543
+1622311823789	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622311825984	Marionette	INFO	Stopped listening on port 51543
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622312021172	geckodriver	INFO	Listening on 127.0.0.1:51910
+1622312022193	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofile2bu0ZY"
+1622312022621	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622312024465	Marionette	INFO	Listening on port 51921
+1622312024553	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622312027365	Marionette	INFO	Stopped listening on port 51921
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622312277169	geckodriver	INFO	Listening on 127.0.0.1:52264
+1622312278187	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofilef4u5iG"
+1622312278567	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622312280319	Marionette	INFO	Listening on port 52275
+1622312280335	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622312283689	Marionette	INFO	Stopped listening on port 52275
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 596: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 596: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofilef4u5iG/protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622312680891	geckodriver	INFO	Listening on 127.0.0.1:52416
+1622312681914	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofileY5Ebxe"
+1622312682306	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622312684093	Marionette	INFO	Listening on port 52427
+1622312684175	Marionette	WARN	TLS certificate errors will be ignored for this session
+1622312686083	Marionette	INFO	Stopped listening on port 52427
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622312872216	geckodriver	INFO	Listening on 127.0.0.1:52739
+1622312873241	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofileS1exYt"
+1622312873630	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622312875511	Marionette	INFO	Listening on port 52750
+1622312875595	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://widgets.trustedshops.com/js/X259C3F82B8987212150641F2490E5654.js, line 1: Error: The Trustbadge script could not be loaded.
+I've tried to load this file but it did not work: https://widgets.trustedshops.com/tb6/trustbadge.js
+Have you maybe selected an invalid TSID?
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+1622312884423	Marionette	INFO	Stopped listening on port 52750
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622313132242	geckodriver	INFO	Listening on 127.0.0.1:53306
+1622313133263	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofile8183iM"
+1622313133661	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622313135447	Marionette	INFO	Listening on port 53317
+1622313135507	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+1622313142238	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+1622313149839	Marionette	INFO	Stopped listening on port 53317
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622313301772	geckodriver	INFO	Listening on 127.0.0.1:53901
+1622313302803	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofileojRgpP"
+1622313303283	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622313305204	Marionette	INFO	Listening on port 53912
+1622313305264	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+1622313319941	Marionette	INFO	Stopped listening on port 53912
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622313576812	geckodriver	INFO	Listening on 127.0.0.1:54217
+1622313577833	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/2w/54np24wx4pg2k7pqhh8cpjyc0000gn/T/rust_mozprofilehP1dJB"
+1622313578294	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622313580275	Marionette	INFO	Listening on port 54228
+1622313580293	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 1: SyntaxError: redeclaration of let countDown
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+1622313598587	Marionette	INFO	Stopped listening on port 54228
+JavaScript error: https://webshop.asus.com/de/rog-gaming/rog-republic-of-gamers/grafikkarten/3024/asus-rog-strix-rtx3080-o10g-white line 1 > injectedScript, line 14: TypeError: document.getElementById(...) is null
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

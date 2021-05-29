@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver import ChromeOptions, Chrome, Firefox
 import random
 n = random.randint(0,1)
 
@@ -32,41 +33,41 @@ def refreshCheckItemAvailability(driver, url):
     url = url
     toCartBtn = False
     while not toCartBtn:
-        try:
+        # try:
             # refreshLimit = 4
-            # for x in range(0, 2):
-                
+        for x in range(0, 3):
+            
             merkzettelBtn = driver.find_element_by_css_selector(
                 ".alert--content"
             )
 
-            print("ARTICLE IS NOT IN STOCK.")
+            print("#############ARTICLE IS NOT IN STOCK.#############")
                 # time.sleep(2)
                 
                 # driver.execute_script("location.reload()")
+            driver.refresh()
+            time.sleep(3)
+        driver.quit()
+        rotateIp(url)
 
-            driver.quit()
-            rotateIp(url)
+        # except:
+        #     print("AN EXCETION ACCURED IN REFRESHCHECKFUNTION")
+        #     addToCartBtn = driver.find_element_by_css_selector(".is--large")
+        #     # addToCartBtn.click()
+        #     print("Articel found and Btn clicked")
 
-        except:
-            print("AN EXCETION ACCURED IN REFRESHCHECKFUNTION")
-            addToCartBtn = driver.find_element_by_css_selector(".is--large")
-            # addToCartBtn.click()
-            print("Articel found and Btn clicked")
+        #     showPopup()
 
-            showPopup()
-
-            toCartBtn = True
+        #     toCartBtn = True
 
 def rotateIp(url):
-    print("rotating ip")
+    print("ROTATING IP ADRESS")
     user_agent = (
         "Mozilla/5.0 CK={} (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
     )
 
     while True:
         try:
-            print('trying diffrent ips')
             for ip in ips:
 
                 # time.sleep(2)
@@ -88,12 +89,12 @@ def rotateIp(url):
                     executable_path="/Users/hamza/downloads/chromedriver", options=opts
                 )
 
-                
+                time.sleep(3)
                 driver.get(url)
                 # time.sleep(1)
                 refreshCheckItemAvailability(driver, url)
         except:
-            print('EXCEPTION WHILE IP ROTATION')
+            print('@@@@@@@ EXCEPTION WHILE IP ROTATION @@@@@@@@')
 
 
 def refreshCheckItemAvailabilityAlternate(driver, url):
